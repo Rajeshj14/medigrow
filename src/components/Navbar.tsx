@@ -112,10 +112,10 @@ export default function Header() {
             <a
               href="tel:+917829868135"
               className="flex items-center gap-2 px-5 py-2 rounded-full
-    bg-gradient-to-r from-[#B964DD] to-[#F849C1]
-    hover:bg-gradient-to-r hover:from-[#F849C1] hover:to-[#B964DD]
-    text-white font-semibold shadow-lg
-    transition-all duration-300"
+              bg-gradient-to-r from-[#B964DD] to-[#F849C1]
+              hover:bg-gradient-to-r hover:from-[#F849C1] hover:to-[#B964DD]
+              text-white font-semibold shadow-lg
+              transition-all duration-300"
             >
               
               <span> Call +91 7829868135</span>

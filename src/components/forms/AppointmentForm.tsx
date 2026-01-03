@@ -37,6 +37,19 @@ export default function AppointmentForm() {
       setIsSubmitting(false);
     }, 1000);
   };
+  const handleChange = (
+  e: React.ChangeEvent<
+    HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+  >
+) => {
+  const { name, value } = e.target;
+
+  setFormData((prev) => ({
+    ...prev,
+    [name]: value,
+  }));
+};
+
 
   return (
     <div className="relative">
@@ -235,7 +248,7 @@ export default function AppointmentForm() {
         <select
             name="area"
             value={formData.area}
-            onChange={handleInputChange}
+            onChange={handleChange}
             required
             className="w-full pl-12 pr-10 py-3.5 rounded-xl border border-gray-200
                     focus:border-[#F849C1] focus:ring-2 focus:ring-[#F849C1]
@@ -308,7 +321,7 @@ export default function AppointmentForm() {
             name="preferredTime"
             value={formData.preferredTime}
 
-            onChange={handleInputChange}
+            onChange={handleChange}
             required
             className="w-full pl-12 pr-4 py-3.5 rounded-xl border border-gray-200
                         focus:border-[#F849C1] focus:ring-2 focus:ring-[#F849C1]

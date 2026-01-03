@@ -1,5 +1,6 @@
-import ThankYouPage from '@/components/Thankyou'
+
 import React from 'react'
+import ThankYouPage from './Thankyou'
 
 const page = () => {
   return (

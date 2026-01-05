@@ -69,7 +69,7 @@ export default function Doctor() {
           <div className="p-8 max-sm:pt-0 md:p-12 space-y-8">
             <div className="max-sm:mb-4">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 max-sm:mb-0">
-                Radiance Elite & Hair Clinic
+                Radiance Elite
               </h3>
               <p className="text-[#B964DD] font-semibold text-lg">
                 MD Dermatologist | Aesthetic Expert

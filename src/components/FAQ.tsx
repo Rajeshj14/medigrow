@@ -35,9 +35,9 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="py-10 px-4 sm:px-6 lg:px-8 bg-white pt-15 max-sm:pt-8">
+    <section className="py-10  max-sm:py-5 px-4 sm:px-6 lg:px-8 bg-white pt-15 max-sm:pt-8">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16 max-sm:mb-8 space-y-4">
+        <div className="text-center mb-16 max-sm:mb-1 max-sm:mb-8 space-y-4">
           <div className="inline-block">
             <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
               Got Questions?
@@ -45,7 +45,7 @@ export default function FAQ() {
             <div className="h-1 w-20 bg-gradient-to-r from-[#B964DD] to-[#F849C1] rounded-full mt-2 mx-auto"></div>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900  max-sm:mb-1">
             Frequently Asked{' '}
             <span className="bg-gradient-to-r from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">
               Questions
@@ -99,7 +99,7 @@ export default function FAQ() {
           ))}
         </div>
 
-        <div className="mt-12 text-center bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 border border-cyan-100">
+        <div className="mt-12  max-sm:mt-5 text-center bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 border border-cyan-100">
           <h3 className="text-2xl font-bold text-gray-900 mb-3">
             Still Have Questions?
           </h3>
@@ -113,6 +113,16 @@ export default function FAQ() {
             <span>Call Us Now</span>
           </a>
         </div>
+      </div>
+      <div className="w-full max-w-[1250px] h-[300px] sm:h-[400px] md:h-[500px] bg-[#00162A] mt-12 max-sm:mt-5 mx-auto rounded shadow-lg shadow-black/50 flex items-center justify-center">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2774336248353!2d80.16355291028961!3d13.081595587190757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526358e4b5ad39%3A0x49727befdef08f72!2sThe%20Radiance%20Elite%20Hair%20%26%20Skin%20Aesthetic%20Clinic!5e0!3m2!1sen!2sin!4v1767622157816!5m2!1sen!2sin"
+            loading="lazy"
+            title="Embedded Frame"
+            className="w-full h-full rounded"
+            frameBorder="0"
+            allowFullScreen
+        />
       </div>
     </section>
   );

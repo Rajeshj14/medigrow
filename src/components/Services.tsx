@@ -44,17 +44,17 @@ export default function Services() {
       description:
         "Bring back your skin's glow and softness by deeply feeding it with vitamins and nutrients it truly needs.",
       icon: Heart,
-      image: 'https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg',
+      image: '/images/pexels.jpg',
     },
   ];
 
   return (
     <section
       id="services"
-      className="py-10 max-sm:py-8 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white"
+      className="py-10 max-sm:py-6 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 max-sm:mb-8 space-y-4">
+        <div className="text-center mb-16 max-sm:mb-5 space-y-4">
           <div className="inline-block">
             <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
               Our Services
@@ -62,7 +62,7 @@ export default function Services() {
             <div className="h-1 w-20 bg-gradient-to-r from-[#B964DD] to-[#F849C1] rounded-full mt-2 mx-auto"></div>
           </div>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 max-sm:mb-1">
             Tailored Solutions for Your{' '}
             <span className="bg-gradient-to-r  from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">
               Beauty Goals
@@ -74,7 +74,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8  max-sm:gap-4">
           {services.map((service, idx) => (
             <div
               key={idx}
@@ -109,7 +109,7 @@ export default function Services() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-12  max-sm:mt-6">
           <a
             href="#about"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#B964DD] to-[#F849C1]

@@ -21,10 +21,10 @@ export default function Doctor() {
   return (
     <section
       id="doctor"
-      className="py-10 mt-[10px] px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white"
+      className="py-7 mt-[0px] px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 max-sm:mb-8 space-y-4">
+        <div className="text-center mb-16 max-sm:mb-6 space-y-4">
           <div className="inline-block">
             <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
               Meet Our Expert
@@ -32,7 +32,7 @@ export default function Doctor() {
             <div className="h-1 w-20 bg-gradient-to-r from-[#B964DD] to-[#F849C1] rounded-full mt-2 mx-auto"></div>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl  max-sm:text-2xl md:text-5xl font-bold text-gray-900">
             Led by{' '}
             <span className="bg-gradient-to-r from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">
               Expertise You Can Trust
@@ -40,7 +40,7 @@ export default function Doctor() {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 max-sm:gap-8 gap-12 items-center bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+        <div className="grid lg:grid-cols-2 max-sm:gap-6 gap-12 items-center bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
           {/* <div className="relative h-[500px] lg:h-155">
             <div className="absolute inset-0 bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br from-[#B964DD] to-[#F849C1] opacity-10"></div>
             <Image

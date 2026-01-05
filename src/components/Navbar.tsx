@@ -288,7 +288,7 @@ export default function Header() {
                 transition-all duration-300"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <span>Call +91 7829868135</span>
+                <span>Call +91 9600004085</span>
               </a>
               <a
                 href="#about"

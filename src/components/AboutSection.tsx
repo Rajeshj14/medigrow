@@ -25,7 +25,7 @@ export default function About() {
   return (
     <section  className="py-15 max-sm:py-8 px-4 sm:py-10 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 max-sm:gap-8 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 max-sm:gap-6 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4 mb-[10px]">
               <div className="inline-block">
@@ -48,11 +48,11 @@ export default function About() {
              we share your passion for beautiful, healthy skin. Our advanced dermatological treatments are meticulously curated to rejuvenate you from within. We understand that every individual’s skin is unique, so we tailor each service to meet your specific needs, offering cost-effective solutions for optimal skin health
             </p>
 
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed max-sm:mb-5" >
               Our unwavering commitment to excellence ensures exceptional results, leaving you with renewed confidence and a radiant glow, making you fall in love with your skin all over again, because this is where every skin story finds its solution.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 gap-4 max-sm:gap-3">
               {features.map((feature, idx) => (
                 <div
                   key={idx}

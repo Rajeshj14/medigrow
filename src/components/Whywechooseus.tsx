@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
   return (
     <section className="py-0 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 max-sm:mb-8 space-y-4">
+        <div className="text-center mb-16  max-sm:mb-5 space-y-4">
           <div className="inline-block">
             <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
               Why Choose Us
@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
             <div className="h-1 w-20 bg-gradient-to-r from-[#B964DD] to-[#F849C1] rounded-full mt-2 mx-auto"></div>
           </div>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-900  max-sm:mb-1">
             Why We're the{' '}
             <span className="bg-gradient-to-r from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">
               Best Choice
@@ -75,7 +75,7 @@ export default function WhyChooseUs() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 max-sm:gap-8 gap-12 items-center mb-16">
+        <div className="grid lg:grid-cols-2 max-sm:gap-5 gap-12 items-center mb-16  max-sm:mb-">
           <div className="space-y-6">
             {reasons.map((reason, idx) => (
               <div

@@ -8,6 +8,8 @@ import Stats from '@/components/Stats'
 import Doctor from '@/components/Doctorpage'
 import FAQ from '@/components/FAQ'
 import Header from '@/components/Navbar'
+import HairConcernsCarousel from '@/components/Skinbefore'
+import SkinBeforeAfterThreeCards from '@/components/Skinvideo'
 
 
 
@@ -22,6 +24,8 @@ const page = () => {
       <Services />
       <WhyChooseUs />
       <Doctor/>
+      <HairConcernsCarousel />
+      <SkinBeforeAfterThreeCards />
       <FAQ />
       <Footer />
 

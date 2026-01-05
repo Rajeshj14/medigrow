@@ -23,9 +23,9 @@ export default function About() {
   ];
 
   return (
-    <section  className="py-15 px-4 sm:py-10 sm:px-6 lg:px-8 bg-white">
+    <section  className="py-15 max-sm:py-8 px-4 sm:py-10 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 max-sm:gap-8 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4 mb-[10px]">
               <div className="inline-block">

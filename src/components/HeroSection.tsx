@@ -352,7 +352,7 @@ export default function Hero() {
                 <div className="aspect-square rounded-xl md:rounded-2xl bg-gradient-to-br from-cyan-100 via-blue-50 to-cyan-100 overflow-hidden relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-200/30 to-blue-200/30 "></div>
                   <Image
-                    src="https://images.pexels.com/photos/31613322/pexels-photo-31613322.jpeg"
+                    src="https://images.pexels.com/photos/5069609/pexels-photo-5069609.jpeg"
                     alt="Beautiful skin results"
                     fill
                     className="object-cover"

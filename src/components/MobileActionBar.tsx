@@ -30,7 +30,7 @@ export default function MobileActionBar() {
 
       {/* Book Now */}
       <a
-        href="/book"
+        href="#about"
         className="
           flex-1 flex items-center justify-center gap-2
           py-4 font-semibold

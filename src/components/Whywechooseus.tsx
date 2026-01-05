@@ -75,7 +75,7 @@ export default function WhyChooseUs() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid lg:grid-cols-2 max-sm:gap-8 gap-12 items-center mb-16">
           <div className="space-y-6">
             {reasons.map((reason, idx) => (
               <div

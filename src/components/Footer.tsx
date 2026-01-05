@@ -21,7 +21,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 max-sm:pt-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-13 max-sm:pt-10 lg:pb-5">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 max-sm:gap-6 gap-12 mb-12 max-sm:mb-8">
           <div className="space-y-6">
             <div className="flex items-center gap-3">
@@ -43,7 +43,7 @@ export default function Footer() {
                 <a
                   key={idx}
                   href="#"
-                  className="w-10 h-10 bg-white/10 hover:bg-gradient-to-br hover:from-cyan-500 hover:to-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                  className="w-10 h-10 bg-white/10 hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
                 >
                   <Icon className="w-5 h-5" />
                 </a>
@@ -112,13 +112,13 @@ export default function Footer() {
                   Plot No. 1, PC-2 Mogappair West Main Road Mogappair West, Nolambur Ambattur Industrial Estate Chennai, Tamil Nadu – 600037
                 </span>
               </li>
-              <li className="flex items-start gap-3 text-gray-400">
+              {/* <li className="flex items-start gap-3 text-gray-400">
                 <Clock className="w-5 h-5 flex-shrink-0 mt-0.5" />
                 <div>
                   <p>Mon - Sat: 10:00 AM - 8:00 PM</p>
                   <p>Sunday: By Appointment</p>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

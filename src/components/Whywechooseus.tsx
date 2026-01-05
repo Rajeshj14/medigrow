@@ -106,7 +106,7 @@ export default function WhyChooseUs() {
               <div className="bg-gradient-to-br from-white to-cyan-50 rounded-3xl p-3 shadow-2xl">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
                   <Image
-                    src="https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg"
+                    src="https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg"
                     alt="Professional dermatology care"
                     fill
                     className="object-cover"

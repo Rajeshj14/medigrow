@@ -90,7 +90,7 @@ export default function FAQ() {
                 }`}
               >
                 <div className="px-6 pb-6 pl-18">
-                  <div className="pl-12 pt-2 border-l-2 border-cyan-200">
+                  <div className="pl-12 pt-2 border-l-2 border-purple-500">
                     <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                   </div>
                 </div>

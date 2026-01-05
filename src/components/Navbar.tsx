@@ -194,24 +194,24 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-2 lg:space-x-4 absolute left-1/2 transform -translate-x-1/2">
             <a
               href="#services"
-              className="text-gray-700 hover:text-cyan-600 font-medium transition-colors duration-300 relative group px-3 py-1"
+              className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 relative group px-3 py-1"
             >
               Services
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="#about"
-              className="text-gray-700 hover:text-cyan-600 font-medium transition-colors duration-300 relative group px-3 py-1"
+              className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 relative group px-3 py-1"
             >
               About
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="#doctor"
-              className="text-gray-700 hover:text-cyan-600 font-medium transition-colors duration-300 relative group px-3 py-1"
+              className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 relative group px-3 py-1"
             >
               Our Expert
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </nav>
 

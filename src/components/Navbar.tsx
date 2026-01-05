@@ -229,7 +229,7 @@ export default function Header() {
               <span>+91 9600004085</span>
             </a>
             <a
-              href="/"
+              href="#about"
               className="flex items-center gap-2 px-4 py-2 rounded-full
               bg-gradient-to-r from-[#B964DD] to-[#F849C1]
               hover:bg-gradient-to-r hover:from-[#F849C1] hover:to-[#B964DD]

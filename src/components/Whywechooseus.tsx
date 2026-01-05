@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
       icon: Award,
       title: 'Doctor-Led Treatments',
       description:
-        'All treatments are either performed or supervised by Dr. Swetha. No unsupervised technicians involved.',
+        'All treatments are either performed or supervised by Radiance Elite & Hair Clinic. No unsupervised technicians involved.',
     },
     {
       icon: Heart,

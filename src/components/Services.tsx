@@ -100,10 +100,10 @@ export default function Services() {
               <div className="p-6">
                 <p className="text-gray-600 leading-relaxed">{service.description}</p>
 
-                <button className="mt-4 text-[#B964DD] font-semibold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
+                <a href="#about" className="mt-4 text-[#B964DD] font-semibold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
                   Learn More
                   <span className="text-lg">→</span>
-                </button>
+                </a>
               </div>
             </div>
           ))}

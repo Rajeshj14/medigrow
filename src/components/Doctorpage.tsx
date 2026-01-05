@@ -45,7 +45,7 @@ export default function Doctor() {
             <div className="absolute inset-0 bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br from-[#B964DD] to-[#F849C1] opacity-10"></div>
             <Image
               src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
-              alt="Dr. Swetika Gutha"
+              alt="Radiance Elite"
               fill
               className="object-cover"
             />
@@ -69,7 +69,7 @@ export default function Doctor() {
           <div className="p-8 max-sm:pt-0 md:p-12 space-y-8">
             <div className="max-sm:mb-4">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 max-sm:mb-0">
-                Dr. Swetika Gutha
+                Radiance Elite & Hair Clinic
               </h3>
               <p className="text-[#B964DD] font-semibold text-lg">
                 MD Dermatologist | Aesthetic Expert
@@ -87,7 +87,7 @@ export default function Doctor() {
 
             <div className="border-t border-gray-200 pt-6 space-y-4 max-sm:pt-3">
               <p className="text-gray-600 leading-relaxed max-sm:mb-3">
-                Dr. Swetika Gutha brings over <span className="font-semibold text-gray-800">8 years of hands-on clinical expertise</span> in
+                Radiance Elite & Hair Clinic brings over <span className="font-semibold text-gray-800">8 years of hands-on clinical expertise</span> in
                 treating both medical and cosmetic skin conditions. Her approach blends evidence-based medicine with a strong aesthetic sense, ensuring every treatment plan is personalized, safe, and effective.
               </p>
 
@@ -101,7 +101,7 @@ export default function Doctor() {
                   "Her philosophy is simple: skincare should be rooted in science, not driven by trends. This is exactly why her patients trust her and why the results consistently speak for themselves."
                 </p>
                 <p className="text-sm text-gray-500 mt-2 font-semibold">
-                  - Dr. Swetika Gutha
+                  — Radiance Elite
                 </p>
               </div>
             </div>

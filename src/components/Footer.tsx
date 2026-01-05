@@ -1,5 +1,5 @@
 "use client"
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram,} from 'lucide-react';
 import Image from 'next/image';
 
 export default function Footer() {
@@ -36,10 +36,10 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Advanced Dermatology Solutions for Radiant, Confident Skin
+              Radiance Elite Skin Care Clinic offers science-backed, dermatologist-led skin treatments to restore healthy, glowing skin with care you can trust.
             </p>
             <div className="flex gap-3">
-              {[Facebook, Instagram, Twitter].map((Icon, idx) => (
+              {[Facebook, Instagram].map((Icon, idx) => (
                 <a
                   key={idx}
                   href="#"

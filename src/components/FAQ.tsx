@@ -15,7 +15,7 @@ export default function FAQ() {
     {
       question: 'Is it safe for sensitive skin or first-timers?',
       answer:
-        'Absolutely. Dr. Swetha takes a conservative and safe approach, especially if you’re new to dermatological treatments.',
+        'Absolutely takes a conservative and safe approach, especially if you’re new to dermatological treatments.',
     },
     {
       question: 'Will there be downtime or side effects?',
@@ -90,7 +90,7 @@ export default function FAQ() {
                 }`}
               >
                 <div className="px-6 pb-6 pl-18">
-                  <div className="pl-12 pt-2 border-l-2 border-purple-500">
+                  <div className="pl-6 pt-2 border-l-2 border-purple-500">
                     <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                   </div>
                 </div>

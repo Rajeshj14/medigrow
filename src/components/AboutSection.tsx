@@ -23,11 +23,11 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="about" className="py-15 px-4 sm:py-10 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="space-y-4">
+            <div className="space-y-4 mb-[10px]">
               <div className="inline-block">
                 <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
                   About Us
@@ -43,7 +43,7 @@ export default function About() {
               </h2>
             </div>
 
-            <p className="text-md text-gray-600 leading-relaxed">
+            <p className="text-md text-gray-600 leading-relaxed mb-[10px]">
               At <span className="font-semibold text-gray-800">Swetika Skin & Hair Clinic</span>,
              we share your passion for beautiful, healthy skin. Our advanced dermatological treatments are meticulously curated to rejuvenate you from within. We understand that every individual’s skin is unique, so we tailor each service to meet your specific needs, offering cost-effective solutions for optimal skin health
             </p>

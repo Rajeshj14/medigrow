@@ -31,7 +31,7 @@ export default function Stats() {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
+    <section className="py-1 px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, idx) => (

@@ -21,10 +21,10 @@ export default function Doctor() {
   return (
     <section
       id="doctor"
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white"
+      className="py-10 mt-[10px] px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 space-y-4">
+        <div className="text-center mb-16 max-sm:mb-8 space-y-4">
           <div className="inline-block">
             <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
               Meet Our Expert
@@ -40,7 +40,7 @@ export default function Doctor() {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+        <div className="grid lg:grid-cols-2 max-sm:gap-8 gap-12 items-center bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
           <div className="relative h-[500px] lg:h-full">
             <div className="absolute inset-0 bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br from-[#B964DD] to-[#F849C1] opacity-10"></div>
             <Image
@@ -66,9 +66,9 @@ export default function Doctor() {
             </div>
           </div>
 
-          <div className="p-8 md:p-12 space-y-8">
-            <div>
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+          <div className="p-8 max-sm:pt-0 md:p-12 space-y-8">
+            <div className="max-sm:mb-4">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 max-sm:mb-0">
                 Dr. Swetika Gutha
               </h3>
               <p className="text-[#B964DD] font-semibold text-lg">
@@ -76,7 +76,7 @@ export default function Doctor() {
               </p>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-3 max-sm:mb-5">
               {credentials.map((credential, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-[#B964DD] flex-shrink-0 mt-0.5" />
@@ -85,8 +85,8 @@ export default function Doctor() {
               ))}
             </div>
 
-            <div className="border-t border-gray-200 pt-6 space-y-4">
-              <p className="text-gray-600 leading-relaxed">
+            <div className="border-t border-gray-200 pt-6 space-y-4 max-sm:pt-3">
+              <p className="text-gray-600 leading-relaxed max-sm:mb-3">
                 Dr. Swetika Gutha brings over <span className="font-semibold text-gray-800">8 years of hands-on clinical expertise</span> in
                 treating both medical and cosmetic skin conditions. Her approach blends evidence-based medicine with a strong aesthetic sense, ensuring every treatment plan is personalized, safe, and effective.
               </p>
@@ -106,7 +106,7 @@ export default function Doctor() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
               {expertise.map((item, idx) => (
                 <div
                   key={idx}

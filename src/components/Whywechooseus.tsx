@@ -52,9 +52,9 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-0 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 space-y-4">
+        <div className="text-center mb-16 max-sm:mb-8 space-y-4">
           <div className="inline-block">
             <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
               Why Choose Us
@@ -106,7 +106,7 @@ export default function WhyChooseUs() {
               <div className="bg-gradient-to-br from-white to-cyan-50 rounded-3xl p-3 shadow-2xl">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
                   <Image
-                    src="https://images.pexels.com/photos/3762800/pexels-photo-3762800.jpeg"
+                    src="https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg"
                     alt="Professional dermatology care"
                     fill
                     className="object-cover"
@@ -115,7 +115,7 @@ export default function WhyChooseUs() {
                 </div>
               </div>
 
-              <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl border border-cyan-100">
+              <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl border border-cyan-100 max-sm:ml-[24px]">
                 <div className="flex items-center gap-3">
                   <div className="w-14 h-14 bg-gradient-to-br from-[#B964DD] rounded-full flex items-center justify-center">
                     <TrendingUp className="w-7 h-7 text-white" />

@@ -21,8 +21,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 max-sm:pt-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 max-sm:gap-6 gap-12 mb-12 max-sm:mb-8">
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="relative w-40 h-12">

@@ -303,7 +303,7 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2 bg-white/90 backdrop-blur-md px-4 py-2 md:px-5 md:py-2.5 rounded-full shadow-lg border border-cyan-100">
               <Sparkles className="w-3 h-3 md:w-4 md:h-4 text-[#B964DD]" />
               <span className="text-xs md:text-sm font-bold bg-gradient-to-r from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">
-                #1 Skin Clinic
+                #1 Skin Clinic In Chennai
               </span>
             </div>
 

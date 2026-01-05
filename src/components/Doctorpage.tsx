@@ -41,7 +41,7 @@ export default function Doctor() {
         </div>
 
         <div className="grid lg:grid-cols-2 max-sm:gap-8 gap-12 items-center bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
-          <div className="relative h-[500px] lg:h-full">
+          {/* <div className="relative h-[500px] lg:h-155">
             <div className="absolute inset-0 bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br bg-gradient-to-br from-[#B964DD] to-[#F849C1] opacity-10"></div>
             <Image
               src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
@@ -64,7 +64,38 @@ export default function Doctor() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <div className="relative h-[400px] lg:h-[620px] w-full">
+  {/* Main Image */}
+  <Image
+    src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
+    alt="Radiance Elite"
+    fill
+    className="object-contain object-center"
+  />
+
+  {/* Top gradient overlay */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+
+  {/* Bottom decorative gradient */}
+  <div className="absolute inset-0 bg-gradient-to-br from-[#B964DD] to-[#F849C1] opacity-10"></div>
+
+  {/* Info Card */}
+  <div className="absolute bottom-8 left-8 right-8">
+    <div className="bg-white/95 backdrop-blur-md rounded-2xl p-6 shadow-xl">
+      <div className="flex items-center gap-4 mb-3">
+        <div className="w-16 h-16 bg-gradient-to-br from-[#B964DD] to-[#F849C1] rounded-full flex items-center justify-center">
+          <Award className="w-8 h-8 text-white" />
+        </div>
+        <div>
+          <p className="text-2xl font-bold text-gray-900">8+</p>
+          <p className="text-sm text-gray-600">Years Experience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
           <div className="p-8 max-sm:pt-0 md:p-12 space-y-8">
             <div className="max-sm:mb-4">
@@ -96,17 +127,17 @@ export default function Doctor() {
                 <span className="font-semibold text-gray-800"> patients regain control over their skin </span> with compassion and precision.
               </p>
 
-              <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-5 border border-cyan-100">
+              {/* <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-5 border border-cyan-100">
                 <p className="text-gray-700 italic">
                   "Her philosophy is simple: skincare should be rooted in science, not driven by trends. This is exactly why her patients trust her and why the results consistently speak for themselves."
                 </p>
                 <p className="text-sm text-gray-500 mt-2 font-semibold">
                   — Radiance Elite
                 </p>
-              </div>
+              </div> */}
             </div>
 
-            <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
+            {/* <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
               {expertise.map((item, idx) => (
                 <div
                   key={idx}
@@ -120,7 +151,7 @@ export default function Doctor() {
                   </p>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

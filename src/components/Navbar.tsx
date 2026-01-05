@@ -291,7 +291,7 @@ export default function Header() {
                 <span>Call +91 7829868135</span>
               </a>
               <a
-                href="/"
+                href="#about"
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-full
                 bg-gradient-to-r from-[#B964DD] to-[#F849C1]
                 hover:bg-gradient-to-r hover:from-[#F849C1] hover:to-[#B964DD]

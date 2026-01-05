@@ -30,7 +30,7 @@ export default function Services() {
       description:
         'Get long-lasting, smooth skin with safe and painless laser technology that works well on Indian skin types.',
       icon: Shield,
-      image: 'https://images.pexels.com/photos/3997991/pexels-photo-3997991.jpeg',
+      image: 'https://images.pexels.com/photos/3738349/pexels-photo-3738349.jpeg',
     },
     {
       title: 'RF Cautery',

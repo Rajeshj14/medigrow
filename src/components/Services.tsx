@@ -116,7 +116,7 @@ export default function Services() {
     hover:bg-gradient-to-r hover:from-[#F849C1] hover:to-[#B964DD] text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             <Sparkles className="w-5 h-5" />
-            <span>I'm Ready For Radiance Skin!</span>
+            <span>Book Your Consultation</span>
           </a>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: Facebook,
-      href: "/",
+      href: "https://www.facebook.com/TheRadianceElite/",
     },
     {
       icon: Instagram,

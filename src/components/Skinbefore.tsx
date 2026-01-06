@@ -385,7 +385,7 @@ const SkinConcernsCarousel = () => {
 
         <div className="overflow-hidden">
           <div
-            className="flex transition-transform duration-500 ease-out"
+            className="flex justify-center transition-transform duration-500 ease-out"
             style={{
               transform: `translateX(-${(currentIndex * 100) / itemsPerView}%)`,
             }}
@@ -400,7 +400,7 @@ const SkinConcernsCarousel = () => {
                 } px-3`}
               >
                 <div className="rounded-2xl lg:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white border border-gray-100">
-                  <div className="relative w-full h-116 md:h-[480px] lg:h-[480px]">
+                  <div className="relative w-full h-96 md:h-[480px] lg:h-[500px]">
                     <VideoPlayer src={card.video} index={i} />
                   </div>
                 </div>

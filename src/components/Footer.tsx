@@ -18,6 +18,16 @@ export default function Footer() {
     'RF Cautery',
     'Mesotherapy',
   ];
+  const socialLinks = [
+    {
+      icon: Facebook,
+      href: "/",
+    },
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/theradianceelite?igsh=MWFleGo4cm84M293Ng==",
+    },
+  ];
 
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
@@ -39,10 +49,12 @@ export default function Footer() {
               Radiance Elite Skin Care Clinic offers science-backed, dermatologist-led skin treatments to restore healthy, glowing skin with care you can trust.
             </p>
             <div className="flex gap-3">
-              {[Facebook, Instagram].map((Icon, idx) => (
+              {socialLinks.map(({ icon: Icon, href }, idx) => (
                 <a
                   key={idx}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-white/10 hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
                 >
                   <Icon className="w-5 h-5" />

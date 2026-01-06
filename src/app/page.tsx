@@ -10,6 +10,7 @@ import FAQ from '@/components/FAQ'
 import Header from '@/components/Navbar'
 import HairConcernsCarousel from '@/components/Skinbefore'
 import SkinBeforeAfterThreeCards from '@/components/Skinvideo'
+import SkinOfferSection from '@/components/skin-offer'
 
 
 
@@ -26,6 +27,7 @@ const page = () => {
       {/* <Doctor/> */}
       <HairConcernsCarousel />
       <SkinBeforeAfterThreeCards />
+      <SkinOfferSection />
       <FAQ />
       <Footer />
 

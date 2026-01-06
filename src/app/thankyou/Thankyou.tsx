@@ -42,8 +42,6 @@ const ThankYouPage = () => {
                 text-white font-semibold shadow-lg
                 transition-all duration-300"
               >
-                <Calendar className="w-4 h-4" />
-                <span>Book Consultation</span>
               </a>
             </nav>
           </div>

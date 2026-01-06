@@ -4,7 +4,7 @@ import React from "react";
 
 const SkinOfferSection = () => {
   return (
-    <section className="py-12 max-sm:pb-0 max-sm:py-4 px-4 bg-gradient-to-br from-pink-50 via-white to-purple-50">
+    <section id="offers" className="py-12 max-sm:pb-0 max-sm:py-4 px-4 bg-gradient-to-br from-pink-50 via-white to-purple-50">
       <div className="max-w-6xl mx-auto">
         {/* OFFER HEADER */}
         <div className="text-center mb-10 max-sm:mb-3">

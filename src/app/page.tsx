@@ -23,11 +23,10 @@ const page = () => {
       <Stats />
       <About />
       <Services />
-      <WhyChooseUs />
-      {/* <Doctor/> */}
+      <SkinOfferSection />
       <HairConcernsCarousel />
       <SkinBeforeAfterThreeCards />
-      <SkinOfferSection />
+      <WhyChooseUs />
       <FAQ />
       <Footer />
 

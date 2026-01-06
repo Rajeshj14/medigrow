@@ -70,7 +70,7 @@ const SkinBeforeAfterCarousel = () => {
       onMouseLeave={() => setIsPaused(false)}
     >
       {/* HEADING */}
-      <div className="text-center max-w-3xl mx-auto mb-10 max-sm:mb-4 px-4">
+      <div className="text-center max-w-3xl mx-auto mb-8 max-sm:mb-4 px-4">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 text-gray-900 max-sm:mb-0">
           Skin Treatment{" "}
           <span className="bg-gradient-to-r from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">

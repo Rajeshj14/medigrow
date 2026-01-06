@@ -388,11 +388,11 @@ const SkinConcernsCarousel = () => {
 
   return (
     <section 
-      className="py-10 pb-0 max-sm:py-8 overflow-hidden bg-gradient-to-b from-white to-orange-50/10"
+      className="py-5  pb-0 max-sm:py-8 max-sm:pb-3 overflow-hidden bg-gradient-to-b from-white to-orange-50/10"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      <div className="text-center max-w-3xl mx-auto mb-10 px-4">
+      <div className="text-center max-w-3xl mx-auto max-sm:mb-5 mb-8 px-4">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 text-gray-900">
           Skin Concerns{" "}
           <span className="bg-gradient-to-r from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">
@@ -442,7 +442,7 @@ const SkinConcernsCarousel = () => {
                 } px-2 sm:px-3`}
               >
                 <div className="rounded-xl sm:rounded-2xl lg:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white border border-gray-100">
-                  <div className="relative w-full h-[400px] sm:h-96 md:h-[480px] lg:h-[500px]">
+                  <div className="relative w-full h-[450px] sm:h-96 md:h-[480px] lg:h-[500px]">
                     <VideoPlayer src={card.video} index={i} />
                   </div>
                 </div>

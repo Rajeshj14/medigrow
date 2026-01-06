@@ -52,9 +52,9 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-0 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-10 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16  max-sm:mb-5 space-y-4">
+        <div className="text-center mb-10 max-sm:mb-5 space-y-4">
           <div className="inline-block">
             <span className="text-[#F849C1] font-bold text-sm tracking-wider uppercase">
               Why Choose Us

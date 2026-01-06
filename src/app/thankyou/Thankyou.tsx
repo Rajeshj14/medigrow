@@ -93,62 +93,6 @@ const ThankYouPage = () => {
                 ))}
               </div>
             </div>
-
-            {/* Special Offer Card */}
-            <div className="bg-gradient-to-r from-purple-900 to-indigo-900 rounded-2xl p-8 text-white">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold mb-2">Your Special Offer Details</h3>
-                <p className="text-purple-200">Limited Time Exclusive Offer</p>
-              </div>
-              
-              <div className="text-center mb-8">
-                <div className="inline-block bg-gradient-to-r from-yellow-400 to-orange-400 text-purple-900 px-6 py-2 rounded-full font-bold text-sm mb-4">
-                  FLAT PRICE
-                </div>
-                <div className="text-5xl font-bold mb-2">₹79,999/-</div>
-                <div className="flex flex-wrap justify-center gap-4 text-lg">
-                  <div className="flex items-center">
-                    <svg className="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                    </svg>
-                    Unlimited Follicles
-                  </div>
-                  <div className="flex items-center">
-                    <svg className="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                    </svg>
-                    Free Aftercare
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <Link href="/" className="bg-white text-purple-900 hover:bg-gray-100 font-bold py-3 px-8 rounded-full text-center transition-colors">
-                  Return to Home
-                </Link>
-                <a href="tel:+919600004085" className="bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90 text-white font-bold py-3 px-8 rounded-full text-center transition-opacity">
-                  Call Us Now
-                </a>
-              </div>
-
-              <div className="border-t border-purple-700 pt-8">
-                <h4 className="text-center text-xl font-bold mb-4">Have questions sooner?</h4>
-                <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-                  <a href="mailto:info@radianceelite.com" className="flex items-center hover:text-purple-200 transition-colors">
-                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                    </svg>
-                    info@radianceelite.com
-                  </a>
-                  <a href="tel:+919600004085" className="flex items-center hover:text-purple-200 transition-colors">
-                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                    </svg>
-                    +91 96000 04085
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </main>

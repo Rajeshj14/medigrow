@@ -148,8 +148,8 @@ export default function WhyChooseUs() {
               className="inline-flex items-center gap-2 bg-gradient-to-r from-[#B964DD] to-[#F849C1]
     hover:bg-gradient-to-r hover:from-[#F849C1] hover:to-[#B964DD] text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              <span className="hidden xs:inline sm:inline">I'm Ready For Radiant Skin!</span>
-              <span className="inline xs:hidden sm:hidden">I'm Radiant Skin!</span>
+              <span className="hidden xs:inline sm:inline">I'm Ready For Radiance Skin!</span>
+              <span className="inline xs:hidden sm:hidden">I'm Radiance Skin!</span>
               <Sparkles className="w-4 sm:w-5 h-4 sm:h-5" />
             </a>
           </div>

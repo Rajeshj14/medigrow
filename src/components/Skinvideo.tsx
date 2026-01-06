@@ -92,12 +92,12 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 
 const images = [
-  "/images/BA.jpg", 
-  "/images/BA1.jpg",
-  "/images/BA2.jpg", 
-  "/images/BA3.jpg", 
-  "/images/BA4.jpg",
-  "/images/BA5.jpg", 
+  "/images/Bef.jpg", 
+  "/images/Bef1.jpg",
+  "/images/Bef2.jpg", 
+  "/images/Bef3.jpg", 
+  "/images/Bef4.jpg",
+  "/images/Bef5.jpg", 
 ];
 
 const SkinBeforeAfterCarousel = () => {

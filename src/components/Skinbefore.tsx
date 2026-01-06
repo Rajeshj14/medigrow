@@ -338,7 +338,7 @@ const SkinConcernsCarousel = () => {
         {/* NAVIGATION BUTTONS */}
         <button
           onClick={prevSlide}
-          className="absolute -left-3 md:-left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm shadow-xl w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-purple-50 group border border-gray-200"
+          className="absolute -left-0 max-sm:ml-2 md:-left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm shadow-xl w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-purple-50 group border border-gray-200"
           aria-label="Previous slide"
         >
           <svg className="w-5 h-5 md:w-6 md:h-6 text-gray-800 group-hover:text-purple-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -348,7 +348,7 @@ const SkinConcernsCarousel = () => {
 
         <button
           onClick={nextSlide}
-          className="absolute -right-3 md:-right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm shadow-xl w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-purple-50 group border border-gray-200"
+          className="absolute -right-0 max-sm:mr-2 md:-right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm shadow-xl w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-purple-50 group border border-gray-200"
           aria-label="Next slide"
         >
           <svg className="w-5 h-5 md:w-6 md:h-6 text-gray-800 group-hover:text-purple-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -380,7 +380,9 @@ const SkinConcernsCarousel = () => {
                   {/* Video Container */}
                   <div className="relative w-full h-100 md:h-120 lg:h-120 overflow-hidden">
                     <video
-                      ref={el => videoRefs.current[i] = el}
+                      ref={el => {
+                        if (el) videoRefs.current[i] = el;
+                      }}
                       src={card.video}
                       className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700"
                       loop

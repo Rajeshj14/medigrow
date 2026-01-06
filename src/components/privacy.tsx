@@ -318,9 +318,9 @@ const PrivacyPolicyPage = () => {
             <button className="text-gray-400 hover:text-blue-300 transition-all transform hover:-translate-y-0.5 font-medium">
               Terms of Service
             </button>
-            <button className="text-gray-400 hover:text-blue-300 transition-all transform hover:-translate-y-0.5 font-medium">
+            <a href="/#about" className="text-gray-400 hover:text-blue-300 transition-all transform hover:-translate-y-0.5 font-medium">
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
       </footer>

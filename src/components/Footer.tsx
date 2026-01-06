@@ -130,7 +130,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-6 text-sm">
               <a
-                href="#"
+                href="/privacy"
                 className="text-gray-400 hover:text-[#B964DD] transition-colors"
               >
                 Privacy Policy

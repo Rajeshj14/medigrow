@@ -11,6 +11,18 @@ const cards = [
     video: "/images/BeforVideo.mp4",
     btn: "Rejuvenate Skin",
   },
+  {
+    video: "/images/beforeafter.mp4",
+    btn: "Rejuvenate Skin",
+  },
+  {
+    video: "/images/beforafter2.mp4",
+    btn: "Rejuvenate Skin",
+  },
+  {
+    video: "/images/beforeafter1.mp4",
+    btn: "Rejuvenate Skin",
+  },
 ];
 
 const VideoPlayer = ({ src, index }: { src: string; index: number }) => {
@@ -338,17 +350,155 @@ const VideoPlayer = ({ src, index }: { src: string; index: number }) => {
   );
 };
 
+// const SkinConcernsCarousel = () => {
+//   const [currentIndex, setCurrentIndex] = useState(0);
+//   const [isPaused, setIsPaused] = useState(false);
+//   const [itemsPerView, setItemsPerView] = useState(3);
+
+//   useEffect(() => {
+//     const updateView = () => {
+//       const width = window.innerWidth;
+//       if (width < 640) setItemsPerView(1);
+//       else if (width < 1024) setItemsPerView(2);
+//       else setItemsPerView(3);
+//     };
+
+//     updateView();
+//     window.addEventListener("resize", updateView);
+//     return () => window.removeEventListener("resize", updateView);
+//   }, []);
+
+//   useEffect(() => {
+//     if (isPaused) return;
+    
+//     const interval = setInterval(() => {
+//       setCurrentIndex(prev =>
+//         prev + 1 > cards.length - itemsPerView ? 0 : prev + 1
+//       );
+//     }, 5000);
+
+//     return () => clearInterval(interval);
+//   }, [itemsPerView, isPaused]);
+
+//   const nextSlide = useCallback(() => {
+//     setCurrentIndex(prev => 
+//       prev + 1 > cards.length - itemsPerView ? 0 : prev + 1
+//     );
+//   }, [itemsPerView]);
+
+//   const prevSlide = useCallback(() => {
+//     setCurrentIndex(prev => 
+//       prev === 0 ? cards.length - itemsPerView : prev - 1
+//     );
+//   }, [itemsPerView]);
+
+//   const goToSlide = (slideIndex: number) => {
+//     setCurrentIndex(slideIndex);
+//   };
+
+//   const totalSlides = Math.max(1, cards.length - itemsPerView + 1);
+
+//   return (
+//     <section 
+//       className="py-5  pb-0 max-sm:py-8 max-sm:pb-3 overflow-hidden bg-gradient-to-b from-white to-orange-50/10"
+//       onMouseEnter={() => setIsPaused(true)}
+//       onMouseLeave={() => setIsPaused(false)}
+//     >
+//       <div className="text-center max-w-3xl mx-auto max-sm:mb-5 mb-8 px-4">
+//         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 text-gray-900">
+//           Skin Concerns{" "}
+//           <span className="bg-gradient-to-r from-[#B964DD] to-[#F849C1] bg-clip-text text-transparent">
+//             We Treat
+//           </span>
+//         </h2>
+//         <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
+//           From acne and pigmentation to advanced skin concerns, we provide safe, doctor-led solutions for healthy and glowing skin.
+//         </p>
+//       </div>
+
+//       <div className="relative max-w-6xl mx-auto px-4">
+//         <button
+//           onClick={prevSlide}
+//           className="absolute left-1 sm:left-0 md:-left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm shadow-xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-purple-50 group border border-gray-200"
+//         >
+//           <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-gray-800 group-hover:text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+//           </svg>
+//         </button>
+
+//         <button
+//           onClick={nextSlide}
+//           className="absolute right-1 sm:right-0 md:-right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm shadow-xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-purple-50 group border border-gray-200"
+//         >
+//           <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-gray-800 group-hover:text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+//           </svg>
+//         </button>
+
+//         <div className="overflow-hidden">
+//           <div
+//             className={`flex transition-transform duration-500 ease-out ${
+//               itemsPerView === 1 ? '' : 'justify-center'
+//             }`}
+//             style={{
+//               transform: `translateX(-${(currentIndex * 100) / itemsPerView}%)`,
+//             }}
+//           >
+//             {cards.map((card, i) => (
+//               <div
+//                 key={i}
+//                 className={`flex-shrink-0 ${
+//                   itemsPerView === 1 ? 'w-full' :
+//                   itemsPerView === 2 ? 'w-1/2' :
+//                   'w-1/5'
+//                 } px-2 sm:px-3`}
+//               >
+//                 <div className="rounded-xl sm:rounded-2xl lg:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white border border-gray-100">
+//                   <div className="relative w-full h-[450px] sm:h-96 md:h-[480px] lg:h-[500px]">
+//                     <VideoPlayer src={card.video} index={i} />
+//                   </div>
+//                 </div>
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+
+//         <div className="flex justify-center items-center space-x-2 md:space-x-3 mt-6 sm:mt-8 md:mt-10 pb-4 sm:pb-0">
+//           {Array.from({ length: totalSlides }).map((_, i) => (
+//             <button
+//               key={i}
+//               onClick={() => goToSlide(i)}
+//               className={`rounded-full transition-all duration-300 ${
+//                 i === currentIndex
+//                   ? "bg-gradient-to-br from-[#B964DD] to-[#F849C1] w-6 h-2 sm:w-8 sm:h-2 md:w-10 md:h-3"
+//                   : "bg-gray-300 hover:bg-gray-400 w-2 h-2 md:w-3 md:h-3"
+//               }`}
+//             />
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
 const SkinConcernsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const [itemsPerView, setItemsPerView] = useState(3);
+  const [itemsPerView, setItemsPerView] = useState(4); // Changed to 4 for desktop
+  const [visibleItems, setVisibleItems] = useState(4); // Added to track visible items
 
   useEffect(() => {
     const updateView = () => {
       const width = window.innerWidth;
-      if (width < 640) setItemsPerView(1);
-      else if (width < 1024) setItemsPerView(2);
-      else setItemsPerView(3);
+      if (width < 640) {
+        setItemsPerView(1);
+        setVisibleItems(1);
+      } else if (width < 1024) {
+        setItemsPerView(2);
+        setVisibleItems(2);
+      } else {
+        setItemsPerView(4); // Show 4 items on desktop
+        setVisibleItems(4);
+      }
     };
 
     updateView();
@@ -360,35 +510,38 @@ const SkinConcernsCarousel = () => {
     if (isPaused) return;
     
     const interval = setInterval(() => {
-      setCurrentIndex(prev =>
-        prev + 1 > cards.length - itemsPerView ? 0 : prev + 1
-      );
+      setCurrentIndex(prev => {
+        const maxIndex = cards.length - visibleItems;
+        return prev >= maxIndex ? 0 : prev + 1;
+      });
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [itemsPerView, isPaused]);
+  }, [visibleItems, isPaused]);
 
   const nextSlide = useCallback(() => {
-    setCurrentIndex(prev => 
-      prev + 1 > cards.length - itemsPerView ? 0 : prev + 1
-    );
-  }, [itemsPerView]);
+    setCurrentIndex(prev => {
+      const maxIndex = cards.length - visibleItems;
+      return prev >= maxIndex ? 0 : prev + 1;
+    });
+  }, [visibleItems]);
 
   const prevSlide = useCallback(() => {
-    setCurrentIndex(prev => 
-      prev === 0 ? cards.length - itemsPerView : prev - 1
-    );
-  }, [itemsPerView]);
+    setCurrentIndex(prev => {
+      return prev === 0 ? cards.length - visibleItems : prev - 1;
+    });
+  }, [visibleItems]);
 
   const goToSlide = (slideIndex: number) => {
-    setCurrentIndex(slideIndex);
+    const maxIndex = cards.length - visibleItems;
+    setCurrentIndex(Math.min(slideIndex, maxIndex));
   };
 
-  const totalSlides = Math.max(1, cards.length - itemsPerView + 1);
+  const totalSlides = Math.max(1, cards.length - visibleItems + 1);
 
   return (
     <section 
-      className="py-5  pb-0 max-sm:py-8 max-sm:pb-3 overflow-hidden bg-gradient-to-b from-white to-orange-50/10"
+      className="py-5 pb-0 max-sm:py-8 max-sm:pb-3 overflow-hidden bg-gradient-to-b from-white to-orange-50/10"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -404,7 +557,7 @@ const SkinConcernsCarousel = () => {
         </p>
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-4">
+      <div className="relative max-w-7xl mx-auto px-4"> {/* Increased max-w to 7xl */}
         <button
           onClick={prevSlide}
           className="absolute left-1 sm:left-0 md:-left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm shadow-xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-purple-50 group border border-gray-200"
@@ -425,9 +578,7 @@ const SkinConcernsCarousel = () => {
 
         <div className="overflow-hidden">
           <div
-            className={`flex transition-transform duration-500 ease-out ${
-              itemsPerView === 1 ? '' : 'justify-center'
-            }`}
+            className="flex transition-transform duration-500 ease-out"
             style={{
               transform: `translateX(-${(currentIndex * 100) / itemsPerView}%)`,
             }}
@@ -436,9 +587,9 @@ const SkinConcernsCarousel = () => {
               <div
                 key={i}
                 className={`flex-shrink-0 ${
-                  itemsPerView === 1 ? 'w-full' :
-                  itemsPerView === 2 ? 'w-1/2' :
-                  'w-1/3'
+                  visibleItems === 1 ? 'w-full' :
+                  visibleItems === 2 ? 'w-1/2' :
+                  'w-1/4' // Changed to w-1/4 for 4 items view
                 } px-2 sm:px-3`}
               >
                 <div className="rounded-xl sm:rounded-2xl lg:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white border border-gray-100">

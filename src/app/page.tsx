@@ -21,13 +21,13 @@ const page = () => {
       <Header />
       <Heros/>
       <Stats />
-      <About />
-      <Services />
       <SkinOfferSection />
+      <Services />
       <HairConcernsCarousel />
       <SkinBeforeAfterThreeCards />
       <WhyChooseUs />
       <FAQ />
+       <About />
       <Footer />
 
       

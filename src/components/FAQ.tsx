@@ -114,7 +114,7 @@ export default function FAQ() {
           </a>
         </div>
       </div>
-      <div className="w-full max-w-[1250px] h-[300px] sm:h-[400px] md:h-[500px] bg-[#00162A] mt-12 max-sm:mt-5 mx-auto rounded shadow-lg shadow-black/50 flex items-center justify-center">
+      {/* <div className="w-full max-w-[1250px] h-[300px] sm:h-[400px] md:h-[500px] bg-[#00162A] mt-12 max-sm:mt-5 mx-auto rounded shadow-lg shadow-black/50 flex items-center justify-center">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2774336248353!2d80.16355291028961!3d13.081595587190757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526358e4b5ad39%3A0x49727befdef08f72!2sThe%20Radiance%20Elite%20Hair%20%26%20Skin%20Aesthetic%20Clinic!5e0!3m2!1sen!2sin!4v1767622157816!5m2!1sen!2sin"
             loading="lazy"
@@ -123,7 +123,7 @@ export default function FAQ() {
             frameBorder="0"
             allowFullScreen
         />
-      </div>
+      </div> */}
     </section>
   );
 }

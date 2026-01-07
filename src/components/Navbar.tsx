@@ -51,17 +51,17 @@ export default function Header() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
-              href="#about"
-              className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 relative group px-3 py-1"
-            >
-              About
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
               href="#offers"
               className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 relative group px-3 py-1"
             >
               Offers
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+             <a
+              href="#about"
+              className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 relative group px-3 py-1"
+            >
+              contact
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </nav>
@@ -115,20 +115,19 @@ export default function Header() {
               Services
             </a>
             <a
-              href="#about"
-              className="block py-2 px-3 text-gray-700 hover:text-cyan-600 font-medium transition-colors rounded-lg hover:bg-gray-50"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              About
-            </a>
-            <a
               href="#offers"
               className="block py-2 px-3 text-gray-700 hover:text-cyan-600 font-medium transition-colors rounded-lg hover:bg-gray-50"
               onClick={() => setMobileMenuOpen(false)}
             >
               Offers
             </a>
-            
+             <a
+              href="#about"
+              className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 relative group px-3 py-1"
+            >
+              contact
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
+            </a>
             <div className="pt-3 space-y-3">
               <a
                 href="tel:+917829868135"
